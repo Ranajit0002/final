@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VELORA</title>
+
+    <!-- font awesome link -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"> -->
+
+    <!-- favicon link -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32/x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./css/shop.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="container">
+                <nav>
+                    <figure class="logo">
+                        <img src="./images/logo.png" alt="logo">
+                    </figure>
+                    <div class="nav2">
+                        <div class="fig">
+                            <img src="./images/pinterest.png" alt="pinterest">
+                            <img src="./images/twitter.png" alt="twitter">
+                            <img src="./images/facebook.png" alt="facebook">
+                            <img src="./images/instagram.png" alt="instagram">
+                        </div>
+                        <div class="fig">
+                            <img src="./images/shopping-bag.png" alt="shopping-bag">
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="top">
+            <div class="container">
+                <div class="content">
+                    <div class="row">
+                        <div class="col col-16">
+                            <div class="card">
+                                <figure class="card-img">
+                                    <img src="./images/shop/top1.png" alt="top1">
+                                </figure>
+                                <h2>Western</h2>
+                            </div>
+                        </div>
+                        <div class="col col-16">
+                            <div class="card">
+                                <figure class="card-img">
+                                    <img src="./images/shop/top2.png" alt="top2">
+                                </figure>
+                                <h2>Ethnic</h2>
+                            </div>
+                        </div>
+                        <div class="col col-16">
+                            <div class="card">
+                                <figure class="card-img">
+                                    <img src="./images/shop/top3.png" alt="top3">
+                                </figure>
+                                <h2>Sportswear</h2>
+                            </div>
+                        </div>
+                        <div class="col col-16">
+                            <div class="card">
+                                <figure class="card-img">
+                                    <img src="./images/shop/top4.png" alt="top4">
+                                </figure>
+                                <h2>Casual</h2>
+                            </div>
+                        </div>
+                        <div class="col col-16">
+                            <div class="card">
+                                <figure class="card-img">
+                                    <img src="./images/shop/top5.png" alt="top5">
+                                </figure>
+                                <h2>Formal</h2>
+                            </div>
+                        </div>
+                        <div class="col col-16">
+                            <div class="card">
+                                <figure class="card-img">
+                                    <img src="./images/shop/top6.png" alt="top6">
+                                </figure>
+                                <h2>Kids</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="product">
+            <div class="container">
+                <div class="content">
+                    <div class="row">
+                        <div class="col col-25">
+                            <div class="sidebar">
+                                <div class="search">
+                                    <input type="text" placeholder="Search our store">
+                                    <a href="#"><img src="./images/search1.png" alt="search1"></a>
+                                </div>
+                                <div class="filter">
+                                    <h2>filter by</h2>
+                                    <div class="gender">
+                                        <label for="men"><input type="checkbox" name="men" id="men">Men</label>
+                                        <label for="women"><input type="checkbox" name="women" id="women">Women</label>
+                                        <label for="boys"><input type="checkbox" name="boys" id="boys">Boys</label>
+                                        <label for="girls"><input type="checkbox" name="girls" id="girls">Girls</label>
+                                    </div>
+                                    <h3>Categories</h3>
+                                    <div class="categories">
+                                        <label for="tops" class="item">
+                                            <span> <input type="checkbox" name="tops" id="tops">Tops</span> <span
+                                                class="count"> (534) </span>
+                                        </label>
+                                        <label for="hair" class="item">
+                                            <span> <input type="checkbox" name="hair" id="hair">Hair Accessories</span>
+                                            <span class="count"> (154) </span>
+                                        </label>
+                                        <label for="watch" class="item">
+                                            <span> <input type="checkbox" name="watch" id="watch">Watch</span> <span
+                                                class="count"> (194) </span>
+                                        </label>
+                                        <label for="bags" class="item">
+                                            <span> <input type="checkbox" name="bags" id="bags">Bags</span> <span
+                                                class="count"> (150) </span>
+                                        </label>
+                                        <label for="more" class="item">
+                                            <span> <input type="checkbox" name="more" id="more">More Accessories</span>
+                                            <span class="count"> (320) </span>
+                                        </label>
+                                    </div>
+                                    <h3>Price</h3>
+                                    <div class="price">
+                                        <div class="slider">
+                                            <div class="slider-track"></div>
+                                            <div class="slider-range" id="slider-range"></div>
+                                            <div class="range-input">
+                                                <input type="range" id="min-range" min="0" max="20000" value="4000"
+                                                    step="100">
+                                                <input type="range" id="max-range" min="0" max="20000" value="20000"
+                                                    step="100">
+                                            </div>
+                                        </div>
+                                        <div class="price-values">
+                                            <span>₹0</span>
+                                            <span>₹20000</span>
+                                        </div>
+                                    </div>
+                                    <h3>Type</h3>
+                                    <div class="type">
+                                        <label for="western" class="item">
+                                            <span> <input type="checkbox" name="western" id="western">Western</span>
+                                            <span class="count"> (534) </span>
+                                        </label>
+                                        <label for="ethnic" class="item">
+                                            <span> <input type="checkbox" name="ethnic" id="ethnic">Ethnic</span>
+                                            <span class="count"> (154) </span>
+                                        </label>
+                                        <label for="IndoWestern" class="item">
+                                            <span> <input type="checkbox" name="IndoWestern"
+                                                    id="IndoWestern">IndoWestern</span> <span class="count"> (194)
+                                            </span>
+                                        </label>
+                                        <label for="modern" class="item">
+                                            <span> <input type="checkbox" name="modern" id="modern">Modern</span> <span
+                                                class="count"> (150) </span>
+                                        </label>
+                                        <label for="edition" class="item">
+                                            <span> <input type="checkbox" name="edition" id="edition">90’s
+                                                Edition</span>
+                                            <span class="count"> (320) </span>
+                                        </label>
+                                    </div>
+                                    <h3>Colour</h3>
+                                    <div class="colors">
+                                        <span class="color color1"></span>
+                                        <span class="color color2"></span>
+                                        <span class="color color3"></span>
+                                        <span class="color color4"></span>
+                                        <span class="color color5"></span>
+                                        <span class="color color6"></span>
+                                        <span class="color color7"></span>
+                                        <span class="color color8"></span>
+                                    </div>
+                                    <h3>Brand</h3>
+                                    <div class="brand">
+                                        <label for="mango" class="item">
+                                            <span> <input type="checkbox" name="mango" id="mango">Mango</span> <span
+                                                class="count"> (534) </span>
+                                        </label>
+                                        <label for="zara" class="item">
+                                            <span> <input type="checkbox" name="zara" id="zara">Zara</span>
+                                            <span class="count"> (154) </span>
+                                        </label>
+                                        <label for="fg" class="item">
+                                            <span> <input type="checkbox" name="fg" id="fg">Forever Glam</span> <span
+                                                class="count"> (194) </span>
+                                        </label>
+                                        <label for="h&m" class="item">
+                                            <span> <input type="checkbox" name="h&m" id="h&m">H&M</span> <span
+                                                class="count"> (150) </span>
+                                        </label>
+                                        <div class="item">
+                                            <span><a href="#">Show More</a></span> <span class="count">(1320)</span>
+                                        </div>
+                                    </div>
+                                    <label for="bs" class="item item1">
+                                        <span> <input type="checkbox" name="bs" id="bs">Bestsellers</span> <span
+                                            class="count"> (534) </span>
+                                    </label>
+                                    <label for="tr" class="item item1">
+                                        <span> <input type="checkbox" name="tr" id="tr">Top Rated</span>
+                                        <span class="count"> (154) </span>
+                                    </label>
+                                    <label for="na" class="item item1">
+                                        <span> <input type="checkbox" name="na" id="na">New Arrivals</span>
+                                        <span class="count"> (154) </span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-75">
+                            <div class="sort">
+                                <p>Sort By:</p>
+                                <select>
+                                    <option>Relevance</option>
+                                    <option>Low to High</option>
+                                    <option>High to Low</option>
+                                </select>
+                            </div>
+                            <div class="cards">
+                                <div class="card">
+                                    <figure class="card-img">
+                                        <img src="./images/shop/prod1.png" alt="prod1">
+                                    </figure>
+                                    <div class="card-content">
+                                        <div class="left">
+                                            <p class="p1">Accessory</p>
+                                            <p class="p2">Winter Knitted Clothes</p>
+                                            <p class="p3">$80.00</p>
+                                            <p class="p4">$70.00</p>
+                                        </div>
+                                        <div class="right">
+                                            <img src="./images/heart2.png" alt="heart2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <figure class="card-img">
+                                        <img src="./images/shop/prod2.png" alt="prod2">
+                                    </figure>
+                                    <div class="card-content">
+                                        <div class="left">
+                                            <p class="p1">Accessory</p>
+                                            <p class="p2">Winter Knitted Clothes</p>
+                                            <p class="p3">$80.00</p>
+                                            <p class="p4">$70.00</p>
+                                        </div>
+                                        <div class="right">
+                                            <img src="./images/heart2.png" alt="heart2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <figure class="card-img">
+                                        <img src="./images/shop/prod3.png" alt="prod3">
+                                    </figure>
+                                    <div class="card-content">
+                                        <div class="left">
+                                            <p class="p1">Accessory</p>
+                                            <p class="p2">Winter Knitted Clothes</p>
+                                            <p class="p3">$80.00</p>
+                                            <p class="p4">$70.00</p>
+                                        </div>
+                                        <div class="right">
+                                            <img src="./images/heart2.png" alt="heart2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <figure class="card-img">
+                                        <img src="./images/shop/prod4.png" alt="prod4">
+                                    </figure>
+                                    <div class="card-content">
+                                        <div class="left">
+                                            <p class="p1">Accessory</p>
+                                            <p class="p2">Winter Knitted Clothes</p>
+                                            <p class="p3">$80.00</p>
+                                            <p class="p4">$70.00</p>
+                                        </div>
+                                        <div class="right">
+                                            <img src="./images/heart2.png" alt="heart2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <figure class="card-img">
+                                        <img src="./images/shop/prod5.png" alt="prod5">
+                                    </figure>
+                                    <div class="card-content">
+                                        <div class="left">
+                                            <p class="p1">Accessory</p>
+                                            <p class="p2">Winter Knitted Clothes</p>
+                                            <p class="p3">$80.00</p>
+                                            <p class="p4">$70.00</p>
+                                        </div>
+                                        <div class="right">
+                                            <img src="./images/heart2.png" alt="heart2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <figure class="card-img">
+                                        <img src="./images/shop/prod6.png" alt="prod6">
+                                    </figure>
+                                    <div class="card-content">
+                                        <div class="left">
+                                            <p class="p1">Accessory</p>
+                                            <p class="p2">Winter Knitted Clothes</p>
+                                            <p class="p3">$80.00</p>
+                                            <p class="p4">$70.00</p>
+                                        </div>
+                                        <div class="right">
+                                            <img src="./images/heart2.png" alt="heart2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <figure class="card-img">
+                                        <img src="./images/shop/prod7.png" alt="prod7">
+                                    </figure>
+                                    <div class="card-content">
+                                        <div class="left">
+                                            <p class="p1">Accessory</p>
+                                            <p class="p2">Winter Knitted Clothes</p>
+                                            <p class="p3">$80.00</p>
+                                            <p class="p4">$70.00</p>
+                                        </div>
+                                        <div class="right">
+                                            <img src="./images/heart2.png" alt="heart2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <figure class="card-img">
+                                        <img src="./images/shop/prod8.png" alt="prod8">
+                                    </figure>
+                                    <div class="card-content">
+                                        <div class="left">
+                                            <p class="p1">Accessory</p>
+                                            <p class="p2">Winter Knitted Clothes</p>
+                                            <p class="p3">$80.00</p>
+                                            <p class="p4">$70.00</p>
+                                        </div>
+                                        <div class="right">
+                                            <img src="./images/heart2.png" alt="heart2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <figure class="card-img">
+                                        <img src="./images/shop/prod9.png" alt="prod9">
+                                    </figure>
+                                    <div class="card-content">
+                                        <div class="left">
+                                            <p class="p1">Accessory</p>
+                                            <p class="p2">Winter Knitted Clothes</p>
+                                            <p class="p3">$80.00</p>
+                                            <p class="p4">$70.00</p>
+                                        </div>
+                                        <div class="right">
+                                            <img src="./images/heart2.png" alt="heart2">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pagination">
+                                <a href="#">&lt;</a>
+                                <a href="#">1</a>
+                                <a href="#">2</a>
+                                <a href="#">3</a>
+                                <a href="#">4</a>
+                                <a href="#">. . . . .</a>
+                                <a href="#">20</a>
+                                <a href="#">&gt;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer1">
+                <img src="./images/logo.png" alt="footer-logo">
+            </div>
+            <div class="footer2">
+                <div class="row">
+                    <div class="col col-33">
+                        <div class="row">
+                            <div class="col-50 shop">
+                                <h3>shop</h3>
+                                <p><a href="#">all</a></p>
+                                <p><a href="#">women</a></p>
+                                <p><a href="#">men</a></p>
+                                <p><a href="#">kid</a></p>
+                                <p><a href="#">new arrival</a></p>
+                                <p><a href="#">about</a></p>
+                            </div>
+                            <div class="col-50 help">
+                                <h3>help</h3>
+                                <p><a href="#">track your order</a></p>
+                                <p><a href="#">shipping info</a></p>
+                                <p><a href="#">returns and exchanges</a></p>
+                                <p><a href="#">my account</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-33 contact">
+                        <div class="row">
+                            <div class="col">
+                                <h3>contact us</h3>
+                                <p><a href="#">+91 9874563210</a></p>
+                                <p><a href="#">789654, roash, west bengal, 1/a</a></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col social">
+                                <h3>social media</h3>
+                                <span><a href="#">Instagram</a></span>
+                                <span><a href="#">facebook</a></span>
+                                <span><a href="#">etsy</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-33 subscribe">
+                        <div class="row">
+                            <div class="col">
+                                <h3>Subscribe</h3>
+                                <p><a href="#">Be the first to get the latest news about trends, promotions, and much
+                                        more!</a></p>
+                            </div>
+                            <form action="">
+                                <input type="email" name="email" id="email" placeholder="Your Email Address">
+                                <input type="submit" value="JOIN">
+                            </form>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h3>Secure Payments</h3>
+                                <ul class="payments">
+                                    <li><a href="#"><img src="./images/gpay.png" alt="gpay"></a></li>
+                                    <li><a href="#"><img src="./images/Paypal.png" alt="Paypal"></a></li>
+                                    <li><a href="#"><img src="./images/Visa.png" alt="Visa"></a></li>
+                                    <li><a href="#"><img src="./images/master-card.png" alt="master-card"></a></li>
+                                    <li><a href="#"><img src="./images/skrill.png" alt="skrill"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer3">
+                <div class="p1">
+                    <p>&copy; 2024 designher, <a href="#">all rights reserved</a></p>
+                </div>
+                <div class="p2">
+                    <p><a href="#">terms of use</a></p>
+                    <p><a href="#">privacy policy</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./js/shop.js"></script>
+</body>
+
+</html>
