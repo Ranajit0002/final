@@ -34,7 +34,7 @@ body {
 }
 
 .left-side {
-    width:30%;
+    width: 30%;
     background: url('../images/register.png') center/cover no-repeat;
 }
 
@@ -78,6 +78,7 @@ body {
     margin-top: 10px;
     cursor: pointer;
 }
+
 .register-btn:hover {
     background: black;
     color: white;
@@ -86,6 +87,12 @@ body {
 .login-text {
     text-align: center;
     margin-top: 15px;
+}
+
+.login-text a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .social-login {
