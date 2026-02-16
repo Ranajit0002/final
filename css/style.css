@@ -222,6 +222,14 @@ nav {
     height: 20px;
 }
 
+/* menu toggle */
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    color: #000;
+    cursor: pointer;
+}
+
 /* banner */
 .banner {
     height: calc(643px - 113px);

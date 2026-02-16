@@ -1,7 +1,41 @@
-@media (min-width: 1200px) {}
+@media (max-width: 1200px) {
+    h2 {
+        font-size: 48px;
+    }
 
-@media (min-width: 992px) {}
+}
 
-@media (min-width: 768px) {}
+@media (max-width: 990px) {
+    .menu-toggle {
+        display: block;
+        z-index: 999;
+    }
 
-@media (min-width: 576px) {}
+    .navlinks {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        background: #fff;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        transition: 0.3s ease;
+        z-index: 1000;
+    }
+
+    .navlinks.active {
+        left: 0;
+    }
+
+    .navlinks.active~.logo,
+    .navlinks.active~.search-box {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}
